@@ -1,13 +1,12 @@
-// frontend/src/components/Home.js
 import React from 'react';
+import './style.css'; // Reuse the same CSS file
 
 function Home() {
-  return (
-    <div>
-      <h1>Homepage</h1>
-      <p>Welcome to the homepage!</p>
-    </div>
-  );
+    return (
+        <div className="container">
+            <h1 className="welcome-text">Welcome to the Homepage!</h1>
+        </div>
+    );
 }
 
 export default Home;
